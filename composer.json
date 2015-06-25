@@ -1,0 +1,26 @@
+{
+	"name": "myth/events",
+	"type": "library",
+	"description": "A simple, fast, and flexible pub/sub events system for PHP with event prioritization.",
+	"keywords": [
+		"pubsub", "php", "events", "hooks"
+	],
+	"homepage": "https://github.com/newmythmedia/events",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lonnie Ezell",
+			"email": "lonnie@newmythmedia.com",
+			"homepage": "http://newmythmedia.com",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Myth\\Events\\": "src/"
+		}
+	}
+}

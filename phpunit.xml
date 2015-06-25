@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true"
+         convertErrorsToException="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnError="true"
+         stopOnFailure="true"
+         stopOnIncomplete="true"
+         stopOnSkipped="false">
+    <testsuites>
+        <testsuite name="AllTests">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>

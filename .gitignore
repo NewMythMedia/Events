@@ -1,0 +1,11 @@
+# OS-specific files
+.DS_Store
+.thumbs
+
+# IDE Files
+.idea/*
+*.sublime-workspace
+*.sublime-project
+
+# Composer installs
+vendor/*
